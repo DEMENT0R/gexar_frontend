@@ -1,25 +1,25 @@
 var i = 0;
 setInterval(function(){
       i++;
-      if (i == 1) {
+      if (i == 3) {
          $('#button1').tooltip('show');
       }
-      if (i == 2) {
+      if (i == 6) {
          $('#button1').tooltip('hide');
       }
-      if (i == 3) {
+      if (i == 7) {
          $('#button2').tooltip('show');
       }
-      if (i == 4) {
+      if (i == 10) {
          $('#button2').tooltip('hide');
       }
-      if (i == 5) {
+      if (i == 11) {
          $('#button3').tooltip('show');
       }
-      if (i == 6) {
+      if (i == 14) {
          $('#button3').tooltip('hide');
       }
-      if (i > 6){
+      if (i > 14){
           i = 0;
       }
 },1000);
