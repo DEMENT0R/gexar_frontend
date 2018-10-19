@@ -1,0 +1,70 @@
+html,body {
+	height: 100vh;
+	margin: 0;
+	background: #fff;
+}
+.wrapper {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+.right-image {
+	width: 50%;
+	background: url("../images/robot.png") no-repeat center bottom / contain;
+}
+.main-block {
+	width: 50%;
+	padding-top: 10vw;
+	padding-left: 5vw;
+}
+.main-text {
+	font-size: 1.5vw;
+}
+.btn {
+	font-size: 1.5vw;
+}
+h1 {
+	font-size: 4vw;
+}
+h2 {
+	font-size: 2vw;
+}
+
+#button1 {
+  position: absolute;
+  bottom: 45%;
+	right: 40%;
+}
+#button2 {
+  position: absolute;
+  bottom: 30%;
+	right: 30%;
+}
+#button3 {
+  position: absolute;
+  bottom: 45%;
+	right: 20%;
+}
+
+@media (max-width: 799px) {
+	.right-image {
+		display: none;
+	}
+	.main-block {
+		width: 100%;
+		padding-top: 5vw;
+		padding-left: 5vw;
+	}
+	.main-text {
+		font-size: 3vw;
+	}
+	.btn {
+		font-size: 3vw;
+	}
+	h1 {
+		font-size: 8vw;
+	}
+	h2 {
+		font-size: 4vw;
+	}
+}
