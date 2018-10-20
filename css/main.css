@@ -14,7 +14,7 @@ html,body {
 }
 .main-block {
 	width: 50%;
-	padding-top: 10vw;
+	padding-top: 1vh;
 	padding-left: 5vw;
 }
 .main-text {
@@ -22,6 +22,9 @@ html,body {
 }
 .btn {
 	font-size: 1.5vw;
+}
+#logo {
+	height: 6vh;
 }
 h1 {
 	font-size: 4vw;

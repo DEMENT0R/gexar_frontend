@@ -1,7 +1,6 @@
 <script src="js/ajax_loader.js"></script>
 
 <div class="dynamic_container">
-  <h2>GEXAR</h2>
   <h1>Здравствуйте!</h1>
   <h2>Меня зовут AI v0.01 Alpha</h2>
   <p class="main-text">

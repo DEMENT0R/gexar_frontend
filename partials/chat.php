@@ -1,7 +1,6 @@
 <script src="js/ajax_loader.js"></script>
 
 <div class="dynamic_container">
-  <h2>GEXAR</h2>
   <h1>Чат</h1>
   <hr>
   <p class="main-text">

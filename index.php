@@ -53,6 +53,8 @@
 <body>
   <div class="wrapper">
     <div class="main-block">
+      <h2><img src="images/gexar_logo.png" alt="GEXAR logo" id="logo"> GEXAR Neurobot Systems</h2>
+      <hr>
       <div id="content">
 
       </div>

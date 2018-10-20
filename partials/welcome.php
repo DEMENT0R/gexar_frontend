@@ -1,7 +1,6 @@
 <script src="js/ajax_loader.js"></script>
 
 <div class="dynamic_container">
-  <h2>GEXAR</h2>
   <h1>Речевые боты с нейронными сетями</h1>
   <h2>Автоматизируют бизнес и зарабатывают для вас</h2>
   <br>
