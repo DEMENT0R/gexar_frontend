@@ -26,6 +26,11 @@ html,body {
 #logo {
 	height: 6vh;
 }
+#chat-scroll {
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  height: 20vh;
+}
 h1 {
 	font-size: 4vw;
 }
