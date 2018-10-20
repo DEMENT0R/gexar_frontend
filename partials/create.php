@@ -6,7 +6,7 @@
   <p class="main-text">
     Пожалуйства, напишите, что бы вы хотели сделать?<br>
     <hr>
-    Ответ: <input type="text" name="" value="Мне нужен ..."> <a href="#" type="button" class="btn btn-default">Ввод</a>
+    <input type="text" name="" value="Мне нужен ...">
     <hr>
   </p>
   <div class="text-center">
