@@ -10,7 +10,7 @@
     | Всегда на связи<br>
   </p>
   <div class="text-center">
-    <a href="#" type="button" id="chat-bot" class="btn btn-primary transition" data-toggle="tooltip" data-placement="bottom" title="Тет-а-тет!">Пообщаться с ботом</a>
-    <a href="#" type="button" id="create-bot" class="btn btn-primary transition" data-toggle="tooltip" data-placement="bottom" title="Прямо сейчас!">Создать своего бота</a>
+    <a href="#" type="button" id="chat-bot" class="btn btn-primary" title="Тет-а-тет!">Пообщаться с ботом</a>
+    <a href="#" type="button" id="create-bot" class="btn btn-primary" title="Прямо сейчас!">Создать своего бота</a>
   </div>
 </div>
