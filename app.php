@@ -44,6 +44,9 @@ block.scrollTop = block.scrollHeight;
   </table>
 </div>
 
-<a href="#" id="main" type="button" class="btn btn-info">Главная</a>
+<div class="text-center">
+  <a href="#" id="chat-bot" type="button" class="btn btn-info">Чат</a>
+  <a href="#" id="main" type="button" class="btn btn-primary">Обратно</a>
+</div>
 
 <?php
