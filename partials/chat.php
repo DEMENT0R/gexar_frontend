@@ -7,7 +7,6 @@ block.scrollTop = block.scrollHeight;
 
 <div class="dynamic_container">
   <h1>Чат</h1>
-  <hr>
   <div id="chat-scroll">
     00:00:01 <b>...:</b> ...<br>
     00:00:01 <b>...:</b> ...<br>
@@ -28,7 +27,7 @@ block.scrollTop = block.scrollHeight;
   </form>
   <hr>
   <div class="text-center">
-    <a href="app.php" id="app" type="button" class="btn btn-info">Чатлог</a>
+    <a href="#" id="app" type="button" class="btn btn-info">Чатлог</a>
     <a href="#" id="main" type="button" class="btn btn-primary">Обратно</a>
   </div>
 </div>

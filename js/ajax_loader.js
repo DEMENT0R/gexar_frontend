@@ -54,3 +54,22 @@ $(document).ready(function(){
          return false;
      });
   });
+
+  $(document).ready(function(){
+      $("#app").click(function(event){
+          $('#content').html('<div class="text-center"><div <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>');
+          $.ajax({
+              url: 'app.php',
+              success: function (data) {
+                  //alert (data);
+                  $('#content').html(data);
+              },
+              error: function(){
+                  //alert ("No PHP script: ");
+                  $('#content').html("Error");
+              }
+          });
+
+          return false;
+      });
+   });

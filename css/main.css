@@ -29,7 +29,7 @@ html,body {
 #chat-scroll {
   border: 1px solid #ccc;
   overflow-y: auto;
-  height: 20vh;
+  height: 30vh;
 }
 h1 {
 	font-size: 4vw;
