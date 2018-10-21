@@ -57,7 +57,9 @@
       <h2><img src="images/gexar_logo.png" alt="GEXAR logo" id="logo"> GEXAR Neurobot Systems</h2>
       <hr>
       <div id="content">
-
+        <div class="text-center"><div <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+        <p>Возможно, у вас проблемы с интернетом...<br>
+        Тем не менее, вы можете ознакомиться с некоторыми интересными вещами!</p>
       </div>
     </div>
     <div class="right-image">
@@ -65,5 +67,12 @@
       </div>
     </div>
   </div>
-
+  <div class="info-block">
+    <p>
+      <b>Debug</b><br>
+      <i>-Cookies-</i><br>
+      <?php //var_dump($_COOKIE); ?>
+      <?php echo "user_id: ".$_COOKIE['user_id']."<br>user_name: ".$_COOKIE['user_name']; ?>
+    </p>
+  </div>
 </body></html>

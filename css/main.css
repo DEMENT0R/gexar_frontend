@@ -23,6 +23,14 @@ html,body {
 .btn {
 	font-size: 1.5vw;
 }
+.info-block {
+	position: absolute;
+	bottom: 1vh;
+	left: 1vw;
+	right: 50%;
+	background-color: #ddd;
+	color: #555;
+}
 #logo {
 	height: 6vh;
 }
