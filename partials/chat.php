@@ -8,22 +8,30 @@ block.scrollTop = block.scrollHeight;
 <div class="dynamic_container">
   <h1>Чат</h1>
   <div id="chat-scroll">
-    00:00:01 <b>...:</b> ...<br>
-    00:00:01 <b>...:</b> ...<br>
-    00:00:01 <b>...:</b> ...<br>
-    00:00:01 <b>...:</b> ...<br>
-    00:00:01 <b>...:</b> ...<br>
-    00:00:01 <b>...:</b> ...<br>
-    00:00:01 <b>...:</b> ...<br>
-    10:53:28 <b>Вы:</b> Привет!<br>
-    10:53:29 <b>ИИ:</b> Здравствуйте.<br>
-    10:53:35 <b>Вы:</b> Как тебя зовут?<br>
-    10:53:37 <b>ИИ:</b> Меня зовут AI v0.01 Alpha, а вас?<br>
-    10:53:41 <b>Василий:</b> Василий<br>
+    <?php
+    if($_COOKIE['user_name'] == ''){
+      echo date("H:i:s").' <b>Бот:</b> Здравствуйте! Как к вам можно обращаться?<br>';
+    } else {
+      echo date("h:m:s").' <b>Бот:</b> Приветствую, '.$_COOKIE['user_name'].'!<br>';
+    }
+    ?>
   </div>
   <form action="db_writer.php" method="post">
-    <input type="text" name="text" value="Мне нужен ...">
-    <input type="submit">
+    <input type="text" id="chat_text" name="chat_text" value="">
+
+    <script>
+    function setUserName (){
+      document.cookie = "user_name=" + document.getElementById('chat_text').value;
+    }
+    </script>
+
+    <?php
+    if($_COOKIE['user_name'] == ''){
+      echo '<input type="button" value="Ввод Имени" onclick="setUserName()">';
+    } else {
+      echo '<input type="submit" value="Ввод Текста">';
+    }
+    ?>
   </form>
   <hr>
   <div class="text-center">

@@ -73,6 +73,7 @@
       <i>-Cookies-</i><br>
       <?php //var_dump($_COOKIE); ?>
       <?php echo "user_id: ".$_COOKIE['user_id']."<br>user_name: ".$_COOKIE['user_name']; ?>
+      
     </p>
   </div>
 </body></html>
